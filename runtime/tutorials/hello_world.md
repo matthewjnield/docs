@@ -168,7 +168,7 @@ organize your code. Consider grouping related functionality into separate files.
 Remember that Deno [supports ES modules](/runtime/fundamentals/modules/), so you
 can use import and export statements to structure your code.
 
-Example folder structure for a deno project:
+Example folder structure for a Deno project:
 
 ```sh
 my_project/
