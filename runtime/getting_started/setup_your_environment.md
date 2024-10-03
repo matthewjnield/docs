@@ -127,7 +127,7 @@ For more information on how to setup ALE (like key bindings) refer to the
 
 Vim-EasyComplete supports Deno without any other configuration. Once you have
 [vim-easycomplete installed](https://github.com/jayli/vim-easycomplete#installation),
-you need install deno via `:InstallLspServer deno` if you haven't installed
+you need install Deno via `:InstallLspServer deno` if you haven't installed
 deno. You can get more information from
 [official documentation](https://github.com/jayli/vim-easycomplete).
 
@@ -156,7 +156,7 @@ An example configuration for Deno via eglot:
     :documentation "A custom class for deno lsp.")
 
   (cl-defmethod eglot-initialization-options ((server eglot-deno))
-    "Passes through required deno initialization options"
+    "Passes through required Deno initialization options"
     (list :enable t
     :lint t))
 ```
