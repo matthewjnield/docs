@@ -36,7 +36,7 @@ const path = Deno.env.get("DENO_INSTALL");
 console.log("Deno Install Path:", path);
 ```
 
-This script tells the system to use the deno runtime to run the script. The -S
+This script tells the system to use the Deno runtime to run the script. The -S
 flag splits the command into arguments and indicates that the following argument
 (`deno run --allow-env`) should be passed to the env command.
 
