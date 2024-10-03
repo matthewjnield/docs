@@ -1,5 +1,5 @@
 ---
-title: "Building deno from Source"
+title: "Building Deno from Source"
 oldUrl:
  - /runtime/references/contributing/building_from_source/
  - /runtime/manual/references/contributing/building_from_source/
