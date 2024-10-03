@@ -169,7 +169,7 @@ interface VirtualTextDocumentParams {
 
 ### task
 
-`deno/task` requests the return of available deno tasks, see
+`deno/task` requests the return of available Deno tasks, see
 [task_runner](/runtime/reference/cli/task_runner/). It does not expect any
 parameters.
 
