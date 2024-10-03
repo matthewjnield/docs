@@ -109,7 +109,7 @@ docker push registry.digitalocean.com/deno-on-digital-ocean/deno-image:new
 You should see your new `deno-image` with the `new` tag in your
 [Digital Ocean container registry](https://cloud.digitalocean.com/registry):
 
-![New deno image on Digital Ocean container registry](./images/how-to/digital-ocean/new-deno-image-on-digital-ocean-container-registry.png)
+![New Deno image on Digital Ocean container registry](./images/how-to/digital-ocean/new-deno-image-on-digital-ocean-container-registry.png)
 
 Perfect!
 
