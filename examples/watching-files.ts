@@ -4,7 +4,7 @@
  * @tags cli
  * @run --allow-read <url>
  * @resource {https://docs.deno.com/api/deno/~/Deno.watchFs} Doc: Deno.watchFs
- * @resource {https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of} MDN: for await of
+ * @resource {https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of} MDN: `for await...of`
  * @resource {https://jsr.io/@std/async/doc/debounce/~} Doc: @std/async/debounce
  * @group File System
  *
@@ -14,7 +14,7 @@
 // Deno.watchFs returns an FsWatcher which is an async iterable.
 let watcher = Deno.watchFs("./");
 
-// The easiest way to interact with async iterables is the javascript for await of syntax.
+// The easiest way to interact with async iterables is the JavaScript `for await...of` syntax.
 for await (const event of watcher) {
   console.log(">>>> event", event);
 
