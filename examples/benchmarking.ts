@@ -12,7 +12,7 @@
  * provides an easy-to-use subcommand for this purpose.
  */
 
-// The most basic form of deno benchmarking is providing a name and an
+// The most basic form of Deno benchmarking is providing a name and an
 // anonymous function to run.
 Deno.bench("URL parsing", () => {
   new URL("https://deno.land");
