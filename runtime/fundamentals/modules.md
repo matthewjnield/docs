@@ -260,7 +260,7 @@ Modules can be published to:
 By default, Deno uses a global cache directory (`DENO_DIR`) for downloaded
 dependencies. This cache is shared across all projects.
 
-You can force deno to refetch and recompile modules into the cache using the
+You can force Deno to refetch and recompile modules into the cache using the
 `--reload` flag.
 
 ```bash
@@ -362,7 +362,7 @@ set the following in a deno.json file:
 }
 ```
 
-When running a deno command with a frozen lockfile, any attempts to update the
+When running a Deno command with a frozen lockfile, any attempts to update the
 lockfile with new contents will cause the command to exit with an error showing
 the modifications that would have been made.
 
