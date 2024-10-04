@@ -1,12 +1,12 @@
 /**
- * @title Web workers
+ * @title Web Workers
  * @difficulty intermediate
  * @tags cli, web
  * @resource {https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers} MDN: Web Workers
  * @resource {https://deno.land/manual@v1.30.0/runtime/workers} Manual: Workers
  * @group Advanced
  *
- * Workers are the only way of running javascript off of the main thread.
+ * Workers are the only way of running JavaScript off of the main thread.
  * This can be useful for a wide variety of programs, especially those where
  * there is a lot of computation that needs to be done without blocking a
  * thread.
@@ -14,7 +14,7 @@
 
 // File: ./worker.ts
 
-// First we will define a web worker, we can receive messages from the main
+// First we will define a Web Worker, we can receive messages from the main
 // thread and do some processing as a result of them.
 self.onmessage = async (e) => {
   const { filename } = e.data;
